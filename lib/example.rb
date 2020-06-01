@@ -36,3 +36,6 @@ cucumber = Plant.new(name: 'Cucumber')
 cucumber.garden = lawn
 
 p lawn.plants
+
+#=>     [#<Plant:0x00007fccbd059768 @name="Basil", @garden=#<Garden:0x00007fccbd059880 @name="Front Lawn">>,
+#      #<Plant:0x00007fccbd059650 @name="Cucumber", @garden=#<Garden:0x00007fccbd059880 @name="Front Lawn">>]
